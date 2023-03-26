@@ -1,13 +1,18 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Dosis", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/* font-family: 'Comforter Brush', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Island Moments', cursive;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
